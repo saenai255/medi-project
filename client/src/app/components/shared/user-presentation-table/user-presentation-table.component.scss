@@ -1,0 +1,10 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 3em;
+}
+
+tr:hover .clickable {
+  cursor: pointer;
+  background: #CBCBCB30;
+}
